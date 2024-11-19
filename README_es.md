@@ -1,5 +1,7 @@
 # PlayerParticles
 
+If you speak another language please visit [README_en.md]()
+
 **Versión Actual:** 1.0.0  
 **Autor:** FrankV22YT  
 
