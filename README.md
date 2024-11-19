@@ -1,6 +1,6 @@
 # PlayerParticles
 
-Si hablas otro idioma por favor visita [README_es.md]()
+Si hablas otro idioma por favor visita [README_es.md](https://github.com/itsFrankV22/PlayerParticle-Plugin-/blob/main/README_es.md)
 
 **Current Version:** 1.0.0  
 **Author:** FrankV22YT  
