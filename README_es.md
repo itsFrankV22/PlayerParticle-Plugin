@@ -26,28 +26,39 @@ Este plugin está en constante desarrollo y seguirá recibiendo actualizaciones 
 3. Edita el archivo de configuración `PlayerParticles.json` ubicado en la carpeta `tshock/` para personalizar los efectos.
 4. Recarga el plugin con `/reload` para aplicar los cambios.
 
-## Configuración
+### Ejemplos de configuracion
 
-El archivo de configuración incluye las siguientes opciones:
+- Busca id de projectiles en esta [WikiProjectileIDs](https://terraria.fandom.com/wiki/Projectile_IDs).
+- Busca id de items en esta [WikiItemsIDs](https://terraria.fandom.com/wiki/Item_IDs)
 
-- **EnableJoinParticles:** `true` o `false` - Activa o desactiva partículas al unirse.
-- **EnableDeathParticles:** `true` o `false` - Activa o desactiva partículas al morir.
-- **JoinParticleIds:** Lista de IDs de proyectiles que se usarán al unirse.
-- **DeathParticleIds:** Lista de IDs de proyectiles que se usarán al morir.
+*Info:
+> 1 y 2: Projectle id
 
-### Ejemplo de Configuración 1 y 2 serian id de projectiles osea particulas
-- Encuentra los id en esta [Wiki](https://terraria.fandom.com/wiki/Projectile_IDs)
+> 3: Item id
+
 
 ```json
 {
+  "Version": null,
+  "EnableJoinParticles": true,
+  "JoinParticleIds": [
+    1,
+    2
+  ],
   "EnableDeathParticles": true,
   "DeathParticleIds": [
     1,
     2
   ],
-  "EnableJoinParticles": true,
-  "JoinParticleIds": [
-    1,
-    2
-  ]
+  "EnableItemUseParticles": true,
+  "ItemParticleMap": {
+    "3": [
+      1,
+      2
+    ],
+    "3": [
+      1,
+      2
+    ]
+  }
 }
