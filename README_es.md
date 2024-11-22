@@ -39,7 +39,7 @@ Este plugin está en constante desarrollo y seguirá recibiendo actualizaciones 
 
 ```json
 {
-  "Version": null,
+  "Version": "1.1.2",
   "EnableJoinParticles": true,
   "JoinParticleIds": [
     1,
@@ -50,7 +50,11 @@ Este plugin está en constante desarrollo y seguirá recibiendo actualizaciones 
     1,
     2
   ],
-  "EnableItemUseParticles": true,
+  "EnableDamageParticles": true,
+  "DamageParticleIds": [
+    1,
+    2
+  ],
   "ItemParticleMap": {
     "3": [
       1,
