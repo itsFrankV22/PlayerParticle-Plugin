@@ -42,8 +42,8 @@ The configuration file includes the following options:
 
 **Info**
 EXAMPLES
-1 and 2 - Projectle id
-3       - Item id
+1 and 2: Projectle id
+3: Item id
 
 
 ```json
