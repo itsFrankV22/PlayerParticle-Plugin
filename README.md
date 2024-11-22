@@ -48,7 +48,7 @@ The configuration file includes the following options:
 
 ```json
 {
-  "Version": null,
+  "Version": "1.1.2",
   "EnableJoinParticles": true,
   "JoinParticleIds": [
     1,
@@ -59,7 +59,11 @@ The configuration file includes the following options:
     1,
     2
   ],
-  "EnableItemUseParticles": true,
+  "EnableDamageParticles": true,
+  "DamageParticleIds": [
+    1,
+    2
+  ],
   "ItemParticleMap": {
     "3": [
       1,
