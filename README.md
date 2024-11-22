@@ -2,7 +2,7 @@
 
 Si hablas otro idioma por favor visita [README_es.md](https://github.com/itsFrankV22/PlayerParticle-Plugin-/blob/main/README_es.md)
 
-**Current Version:** 1.1.1
+**Current Version:** 1.1.2
 **Author:** FrankV22YT  
 
 ## Description
@@ -37,19 +37,37 @@ The configuration file includes the following options:
 
 ### Configuration Example
 
-- Find projectile IDs on this [Wiki](https://terraria.fandom.com/wiki/Projectile_IDs).
+- Find projectile IDs on this [WikiProjectileIDs](https://terraria.fandom.com/wiki/Projectile_IDs).
+- Find Items IDs on this [WikiItemsIDs](https://terraria.fandom.com/wiki/Item_IDs)
+
+**Info**
+EXAMPLES
+1 and 2 - Projectle id
+3       - Item id
+
 
 ```json
 {
+  "Version": null,
+  "EnableJoinParticles": true,
+  "JoinParticleIds": [
+    1,
+    2
+  ],
   "EnableDeathParticles": true,
   "DeathParticleIds": [
     1,
     2
   ],
-  "EnableJoinParticles": true,
-  "JoinParticleIds": [
-    1,
-    2
-  ]
+  "EnableItemUseParticles": true,
+  "ItemParticleMap": {
+    "3": [
+      1,
+      2
+    ],
+    "3": [
+      1,
+      2
+    ]
+  }
 }
-
