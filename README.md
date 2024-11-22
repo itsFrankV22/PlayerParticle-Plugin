@@ -41,8 +41,9 @@ The configuration file includes the following options:
 - Find Items IDs on this [WikiItemsIDs](https://terraria.fandom.com/wiki/Item_IDs)
 
 *Info:
-1 and 2: Projectle id
-3: Item id
+> 1 and 2: Projectle id
+
+> 3: Item id
 
 
 ```json
