@@ -2,7 +2,7 @@
 
 Si hablas otro idioma por favor visita [README_es.md](https://github.com/itsFrankV22/PlayerParticle-Plugin-/blob/main/README_es.md)
 
-**Current Version:** 1.1.2
+**Current Version:** 1.1.4
 **Author:** FrankV22YT  
 
 ## Description
@@ -46,6 +46,7 @@ The configuration file includes the following options:
 > 3: Item id
 
 > 60: Time in miliseconds
+- If you put more than what the particle admits, it will not support it and will be eliminated with its own maximum time, the rest you put in will admit time unless the aforementioned happens.
 
 
 ```json
