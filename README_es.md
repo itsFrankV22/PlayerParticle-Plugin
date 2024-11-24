@@ -18,6 +18,7 @@ Este plugin está en constante desarrollo y seguirá recibiendo actualizaciones 
 - Compatible con **TShock** y diseñado para mejorar la experiencia visual en servidores.
 - Fácil recarga de configuración con el comando `/reload`.
 - Ligero y eficiente para servidores personalizados.
+- Debes tener `"SuppressPermissionFailureNotices": true` en `config.json`
 
 ## Instalación
 
