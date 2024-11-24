@@ -45,33 +45,45 @@ The configuration file includes the following options:
 
 > 3: Item id
 
+> 60: Time in miliseconds
+
 
 ```json
 {
-  "Version": "1.1.2",
+  "Version": "1.1.4",
   "EnableJoinParticles": true,
+  "JoinParticleTimeTicks": 60,
   "JoinParticleIds": [
     1,
     2
   ],
   "EnableDeathParticles": true,
+  "DeathParticleTimeTicks": 60,
   "DeathParticleIds": [
     1,
     2
   ],
   "EnableDamageParticles": true,
+  "DamageParticleTimeTicks": 60,
   "DamageParticleIds": [
+    1,
+    2
+  ],
+  "EnableHealingParticles": true,
+  "HealingParticleTimeTicks": 60,
+  "HealingParticleIds": [
     1,
     2
   ],
   "ItemParticleMap": {
     "3": [
-      1,
-      2
+    1,
+    2
     ],
     "3": [
       1,
       2
     ]
-  }
+  },
+  "ItemParticleTimeTicks": 60
 }
