@@ -18,7 +18,6 @@ Este plugin está en constante desarrollo y seguirá recibiendo actualizaciones 
 - Compatible con **TShock** y diseñado para mejorar la experiencia visual en servidores.
 - Fácil recarga de configuración con el comando `/reload`.
 - Ligero y eficiente para servidores personalizados.
-- Debes tener `"SuppressPermissionFailureNotices": true` en `config.json`
 
 ## Instalación
 
@@ -26,6 +25,7 @@ Este plugin está en constante desarrollo y seguirá recibiendo actualizaciones 
 2. Inicia el servidor para generar automáticamente el archivo de configuración.
 3. Edita el archivo de configuración `PlayerParticles.json` ubicado en la carpeta `tshock/` para personalizar los efectos.
 4. Recarga el plugin con `/reload` para aplicar los cambios.
+- Debes tener `"SuppressPermissionFailureNotices": true` en `config.json`
 
 ### Ejemplos de configuracion
 
