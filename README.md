@@ -34,6 +34,7 @@ The configuration file includes the following options:
 - **EnableDeathParticles:** `true` or `false` - Enables or disables particles when dying.
 - **JoinParticleIds:** A list of projectile IDs to be used when joining.
 - **DeathParticleIds:** A list of projectile IDs to be used when dying.
+- You must have `"SuppressPermissionFailureNotices": true` in `config.json`
 
 ### Configuration Example
 
